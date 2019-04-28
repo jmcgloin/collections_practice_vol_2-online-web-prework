@@ -55,6 +55,7 @@ def find_cool(cool)
   cool_peeps = []
   cool.each do
     |peep|
+    
     if peep[:temperature] = "cool" then cool_peeps.push(peep) end
   end
   cool_peeps
