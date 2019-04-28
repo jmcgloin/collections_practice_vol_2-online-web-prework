@@ -67,7 +67,7 @@ def organize_schools(schools)
     location = school[1][:location]
   # binding.pry
     if !by_location.key?(location) then by_location[location] = [] end
-    if !by_location[location].include?(school) then by_location[location].push(school) end
+    if !by_location[location].include?(school[0]) then by_location[location].push(school) end
   end
   by_location
 end
