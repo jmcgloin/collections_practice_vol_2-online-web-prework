@@ -58,7 +58,7 @@ def find_cool(cool)
     if peep[:temperature] = "cool" then cool_peeps.push(peep) end
   end
   cool_peeps
-  binding.pry
+  # binding.pry
 end
 
 
