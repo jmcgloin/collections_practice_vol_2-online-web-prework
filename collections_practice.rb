@@ -65,11 +65,11 @@ def organize_schools(schools)
   schools.each do
     |school|
     location = school[:location]
-    if !by_location.key?(location) then by_locatioin[location] = [] end
+  # binding.pry
+    if !by_location.key?(location) then by_location[location] = [] end
     if !by_location[location].include?(school) then by_location[location].push(school) end
   end
   by_location
-  # binding.pry
 end
 
 
