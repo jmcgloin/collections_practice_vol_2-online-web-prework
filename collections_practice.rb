@@ -55,11 +55,13 @@ def find_cool(cool)
   cool_peeps = []
   cool.each do
     |peep|
-    # binding.pry
     if peep[:temperature] == "cool" then cool_peeps.push(peep) end
   end
   cool_peeps
-  # binding.pry
+end
+
+def organize_schools(schools)
+  binding.pry
 end
 
 
